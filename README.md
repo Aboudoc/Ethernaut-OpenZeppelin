@@ -29,23 +29,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Aboudoc/AU-proxies">
+  <a href="https://github.com/Aboudoc/Ethernaut-OpenZeppelin">
     <img src="images/logo.png" alt="Logo" width="80" height="60">
   </a>
 
-<h3 align="center">Proxy vulnerabilities</h3>
+<h3 align="center">The Ethernaut</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/Aboudoc/AU-proxies"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Aboudoc/Ethernaut-OpenZeppelin"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Aboudoc/AU-proxies">View Demo</a>
+    <a href="https://github.com/Aboudoc/Ethernaut-OpenZeppelin">View Demo</a>
     ·
-    <a href="https://github.com/Aboudoc/AU-proxies/issues">Report Bug</a>
+    <a href="https://github.com/Aboudoc/Ethernaut-OpenZeppelin/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Aboudoc/AU-proxies/issues">Request Feature</a>
+    <a href="https://github.com/Aboudoc/Ethernaut-OpenZeppelin/issues">Request Feature</a>
   </p>
 </div>
 
@@ -124,7 +124,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/Aboudoc/AU-proxies.git
+    git clone https://github.com/Aboudoc/Ethernaut-OpenZeppelin.git
     ```
 2. Install NPM packages
     ```sh
@@ -185,7 +185,7 @@ To ensure that data is private, it needs to be encrypted before being put onto t
 -   [ ] King
 -   [ ] Finish all challenges
 
-See the [open issues](https://github.com/Aboudoc/AU-proxies/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Aboudoc/Ethernaut-OpenZeppelin/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +220,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Reda Aboutika - [@twitter_AboutikaR](https://twitter.com/AboutikaR) - reda.aboutika@gmail.com
 
-Project Link: [https://github.com/Aboudoc/AU-proxies](https://github.com/Aboudoc/AU-proxies)
+Project Link: [https://github.com/Aboudoc/Ethernaut-OpenZeppelin](https://github.com/Aboudoc/Ethernaut-OpenZeppelin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,7 +228,7 @@ Project Link: [https://github.com/Aboudoc/AU-proxies](https://github.com/Aboudoc
 
 ## Acknowledgments
 
--   [OpenZeppelin](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies)
+-   [OpenZeppelin](https://ethernaut.openzeppelin.com/)
 -   [SolidityByExample](https://solidity-by-example.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,16 +236,16 @@ Project Link: [https://github.com/Aboudoc/AU-proxies](https://github.com/Aboudoc
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/Aboudoc/AU-proxies.svg?style=for-the-badge
-[contributors-url]: https://github.com/Aboudoc/AU-proxies/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Aboudoc/AU-proxies.svg?style=for-the-badge
-[forks-url]: https://github.com/Aboudoc/AU-proxies/network/members
-[stars-shield]: https://img.shields.io/github/stars/Aboudoc/AU-proxies.svg?style=for-the-badge
-[stars-url]: https://github.com/Aboudoc/AU-proxies/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Aboudoc/AU-proxies.svg?style=for-the-badge
-[issues-url]: https://github.com/Aboudoc/AU-proxies/issues
-[license-shield]: https://img.shields.io/github/license/Aboudoc/AU-proxies.svg?style=for-the-badge
-[license-url]: https://github.com/Aboudoc/AU-proxies/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Aboudoc/Ethernaut-OpenZeppelin.svg?style=for-the-badge
+[contributors-url]: https://github.com/Aboudoc/Ethernaut-OpenZeppelin/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Aboudoc/Ethernaut-OpenZeppelin.svg?style=for-the-badge
+[forks-url]: https://github.com/Aboudoc/Ethernaut-OpenZeppelin/network/members
+[stars-shield]: https://img.shields.io/github/stars/Aboudoc/Ethernaut-OpenZeppelin.svg?style=for-the-badge
+[stars-url]: https://github.com/Aboudoc/Ethernaut-OpenZeppelin/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Aboudoc/Ethernaut-OpenZeppelin.svg?style=for-the-badge
+[issues-url]: https://github.com/Aboudoc/Ethernaut-OpenZeppelin/issues
+[license-shield]: https://img.shields.io/github/license/Aboudoc/Ethernaut-OpenZeppelin.svg?style=for-the-badge
+[license-url]: https://github.com/Aboudoc/Ethernaut-OpenZeppelin/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/r%C3%A9da-aboutika-34305453/?originalSubdomain=fr
 [product-screenshot]: https://res.cloudinary.com/divzjiip8/image/upload/c_scale,w_239/v1587421101/mascots_dge1th.png
