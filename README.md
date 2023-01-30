@@ -208,6 +208,14 @@ await getBalance(contract.address)
 
 The goal is to send more ETH than the actual balance from a malicious contract that doesn't got any receive function. This will revert the transaction sent from King contract and break the game.
 
+Not having a fallback or a receive function is the same as:
+
+```js
+fallback() external payable {
+    revert();
+}
+```
+
 Most of Ethernaut's levels try to expose (in an oversimplified form of course) something that actually happened — a real hack or a real bug.
 
 In this case, see: [King of the Ether](https://www.kingoftheether.com/thrones/kingoftheether/index.html) and [King of the Ether Postmortem](http://www.kingoftheether.com/postmortem.html).
