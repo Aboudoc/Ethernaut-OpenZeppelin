@@ -154,11 +154,19 @@ GOERLI_RPC_URL=
 
 # 07.Force
 
+## Challenge
+
+## Solution
+
 In solidity, for a contract to be able to receive ether, the fallback function must be marked payable.
 
 However, there is no way to stop an attacker from sending ether to a contract by self destroying. Hence, it is important not to count on the invariant address(this).balance == 0 for any contract logic.
 
 # 08.Vault
+
+## Challenge
+
+## Solution
 
 Copy instance address from the console and paste it as vaultAddress in exploitVault script
 
@@ -168,11 +176,33 @@ Run the exploit:
 npx hardhat run scripts/exploitVault --network goerli
 ```
 
+Another way getting the password using web3:
+
+```js
+await web3.eth.getStorageAt(contract.address, 1)
+```
+
 It's important to remember that marking a variable as private only prevents other contracts from accessing it. State variables marked as private and local variables are still publicly accessible.
 
 To ensure that data is private, it needs to be encrypted before being put onto the blockchain. In this scenario, the decryption key should never be sent on-chain, as it will then be visible to anyone who looks for it. [zk-SNARKs](https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell) provide a way to determine whether someone possesses a secret parameter, without ever having to reveal the parameter.
 
 # 09.King
+
+## Challenge
+
+The King's contract represents a very simple game: whoever sends it an amount of ether that is larger than the current prize becomes the new king. On such an event, the overthrown king gets paid the new prize, making a bit of ether in the process! As ponzi as it gets xD
+
+Such a fun game. Your goal is to break it.
+
+When you submit the instance back to the level, the level is going to reclaim kingship. You will beat the level if you can avoid such a self proclamation.
+
+## Solution
+
+First, let's check the contract balance. Run it to the console:
+
+```js
+await getBalance(contract.address)
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
