@@ -145,12 +145,14 @@ Fist of all get a new instance from [Ethereaut](https://ethernaut.openzeppelin.c
 
 Use the instance address logged to the console to deploy the exploit. Address of the victim is set in the constructor.
 
-Add your RPC url and private key to .env file
+Add your RPC url and private key to `.env` file
 
 ```sh
 PRIVATE_KEY=
 GOERLI_RPC_URL=
 ```
+
+Note: Each challenge can be done/verified on [Remix](https://remix.ethereum.org/)
 
 # 07.Force
 
@@ -168,7 +170,7 @@ However, there is no way to stop an attacker from sending ether to a contract by
 
 ## Solution
 
-Copy instance address from the console and paste it as vaultAddress in exploitVault script
+Copy instance address from the console and paste it as `vaultAddress` in `exploitVault.js` script
 
 Run the exploit:
 
@@ -203,6 +205,12 @@ First, let's check the contract balance. Run it to the console:
 ```js
 await getBalance(contract.address)
 ```
+
+The goal is to send more ETH than the actual balance from a malicious contract that doesn't got any receive function. This will revert the transaction sent from King contract and break the game.
+
+Most of Ethernaut's levels try to expose (in an oversimplified form of course) something that actually happened — a real hack or a real bug.
+
+In this case, see: [King of the Ether](https://www.kingoftheether.com/thrones/kingoftheether/index.html) and [King of the Ether Postmortem](http://www.kingoftheether.com/postmortem.html).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
