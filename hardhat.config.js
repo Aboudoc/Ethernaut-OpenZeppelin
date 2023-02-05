@@ -6,9 +6,9 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 
 module.exports = {
     solidity: {
-        compilers: [{ version: "0.8.0" }, { version: "0.6.12" }],
+        compilers: [{ version: "0.8.0" }, { version: "0.6.12" }, { version: "0.8.6" }],
     },
-    dafaultNetwork: "hardhat",
+    dafaultNetwork: "localhost",
     networks: {
         goerli: {
             url: GOERLI_RPC_URL,
