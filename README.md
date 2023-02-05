@@ -253,6 +253,16 @@ Re-entrancy is a common attack. You should always be prepared for it!
 The DAO Hack
 The famous DAO hack used reentrancy to extract a huge amount of ether from the victim contract. See [15 lines of code that could have prevented TheDAO Hack](https://blog.openzeppelin.com/15-lines-of-code-that-could-have-prevented-thedao-hack-782499e00942/).
 
+# 11. Elevator
+
+## Challenge
+
+## Solution
+
+You can use the view function modifier on an interface in order to prevent state modifications. The `pure` modifier also prevents functions from modifying the state. Make sure you read [Solidity's documentation](https://docs.soliditylang.org/en/develop/contracts.html#view-functions) and learn its caveats.
+
+An alternative way to solve this level is to build a view function which returns different results depends on input data but don't modify state, e.g. `gasleft()`.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
